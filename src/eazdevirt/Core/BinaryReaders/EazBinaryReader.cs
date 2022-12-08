@@ -96,13 +96,13 @@ namespace eazdevirt.Core
         }
 
         private BinaryReader ToBinaryReader(byte[] input)
-	    {
+        {
             MemoryStream memoryStream = new MemoryStream(8);
             BinaryReader binaryReader = new BinaryReader(memoryStream);
-			binaryReader.BaseStream.Position = 0L;
+            binaryReader.BaseStream.Position = 0L;
             memoryStream.Write(input, 0, input.Length);
             memoryStream.Position = 0L;
             return binaryReader;
-	    }
+        }
     }
 }

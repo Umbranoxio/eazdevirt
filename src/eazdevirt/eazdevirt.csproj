@@ -41,8 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\AttributeInjector.cs" />
-    <Compile Include="Core\BinaryReaders\EazBinaryReader2018_1.cs" />
-    <Compile Include="Core\BinaryReaders\EazBinaryReader2018_3.cs" />
+    <Compile Include="Core\BinaryReaders\EazBinaryReader.cs" />
     <Compile Include="Core\CryptoStreamBase.cs" />
     <Compile Include="Core\OpCodeResolver.cs" />
     <Compile Include="Core\SerializationVersion.cs" />
@@ -54,7 +53,6 @@
     <Compile Include="Core\Types\CryptoStreamDef.cs" />
     <Compile Include="Core\Types\ITypeDefProvider.cs" />
     <Compile Include="Core\V2\CryptoStreamV2.cs" />
-    <Compile Include="Detection\Generated\2018_1.cs" />
     <Compile Include="Detection\V1\Detection.Conv.Cflow.cs" />
     <Compile Include="Detection\InstructionDetectorBase.cs" />
     <Compile Include="Detection\IInstructionDetector.cs" />
@@ -63,6 +61,7 @@
     <Compile Include="Detection\V1\Detection.Br.cs" />
     <Compile Include="Detection\V1\Detection.Conv.cs" />
     <Compile Include="Detection\V1\Detection.Elem.cs" />
+    <Compile Include="Detection\V1\Detection.Generated.cs" />
     <Compile Include="Detection\V1\Detection.Ind.cs" />
     <Compile Include="Detection\V1\Detection.Ldc.cs" />
     <Compile Include="Detection\V1\Detection.Math.cs" />
