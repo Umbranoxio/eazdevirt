@@ -120,8 +120,9 @@ namespace eazdevirt
 					reader.Read(); // Read method
 				}
 				catch (Exception e)
-				{ 
-					exception = e;
+				{
+                    Console.WriteLine(e.ToString());
+                    exception = e;
 				}
 
 				DevirtualizeAttempt attempt;
